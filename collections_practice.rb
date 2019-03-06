@@ -48,7 +48,7 @@ end
 def add_s(array)
   return_array = []
   array.each_with_index do |word, i|
-      return_array << word << "s"
+      return_array << (word << "s")
   end
   return_array
 end

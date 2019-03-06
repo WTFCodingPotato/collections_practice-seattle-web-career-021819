@@ -27,6 +27,3 @@ def kesha_maker(array)
     word.index[2] = "$"
   end
 end
-  
-  
-end

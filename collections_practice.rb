@@ -52,6 +52,7 @@ def add_s(array)
     count += 1
     if !count = 2
       return_array << (word << "s")
+    end
   end
   return_array
 end

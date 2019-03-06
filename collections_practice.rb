@@ -21,9 +21,3 @@ end
 def reverse_array(array)
   array.reverse
 end
-
-def kesha_maker(array)
-  array.collect do |word|
-    word.index[2] = "$"
-  end
-end

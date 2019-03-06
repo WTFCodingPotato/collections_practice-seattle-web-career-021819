@@ -24,6 +24,6 @@ end
 
 def kesha_maker(array)
   array.collect do |word|
-    word.index(2) = "$"
+    word.index[2] = "$"
   end
 end

@@ -46,11 +46,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  return_array = []
-  array.each_with_index do |word, i|
-    if !i == 1
-      return_array << (word << "s")
+  array.map do |string|
+    if string == "feet"
+      string
+    else
+      string << "s"
     end
   end
-  return_array
 end

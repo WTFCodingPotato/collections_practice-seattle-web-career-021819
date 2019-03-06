@@ -51,7 +51,7 @@ def add_s(array)
     if i = 1
       return_array << word
     else
-      return_array << (word << "s")
+      return_array << word << "s"
     end
   end
   return_array

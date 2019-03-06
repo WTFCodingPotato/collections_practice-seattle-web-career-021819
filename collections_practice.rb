@@ -47,10 +47,8 @@ end
 
 def add_s(array)
   return_array = []
-  count = 0
-  array.each_with_index do |word|
-    count += 1
-    if !count = 2
+  array.each_with_index do |word, i|
+    if !i == 1
       return_array << (word << "s")
     end
   end
